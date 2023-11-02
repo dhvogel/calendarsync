@@ -5,7 +5,7 @@ import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from '@azure/
 import Button from 'react-bootstrap/Button';
 import { loginRequest } from './authConfig';
 import { callMsGraph } from './graph';
-import { ProfileData } from './components/ProfileData';
+import ProfileData from './components/ProfileData.tsx';
 
 
 /**
